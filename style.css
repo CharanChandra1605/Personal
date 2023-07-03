@@ -47,13 +47,14 @@ opacity: 0.9;
   background-position: center center;
   margin-left: 80px;
 }
+  img {
+    height: 300px;
+    
+    max-width: 100%;
+    user-select: none;
+  }
 
-img {
-  max-height: 300px;
-  width: 100%;
-  max-width: 100%;
-  user-select: none;
-}
+
 
 .paper.heart::after {
   content: "";
