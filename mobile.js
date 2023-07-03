@@ -78,9 +78,8 @@ class Paper {
     paper.addEventListener('gestureend', () => {
       this.rotating = false;
     });
-    window.addEventListener('mouseup', () => {
-      this.holdingPaper = false;
-      this.rotating = false;
+    paper.addEventListener('touchstart', () => {
+      
       const audio = document.querySelector("audio");
   audio.volume = 0.7;
   audio.play();

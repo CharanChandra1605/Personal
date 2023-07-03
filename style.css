@@ -10,6 +10,7 @@ body {
   background-size: 100%;
   background-image: url("images/3582462.jpg");
   background-position: center center;
+  
 }
 
 .paper {
@@ -36,6 +37,7 @@ opacity: 0.9;
 
 .paper.image {
   padding: 30px;
+
   border-radius: 25px
 }
 .paper.image p {
@@ -49,6 +51,7 @@ opacity: 0.9;
 img {
   max-height: 300px;
   width: 100%;
+  max-width: 100%;
   user-select: none;
 }
 
